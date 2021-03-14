@@ -1,0 +1,18 @@
+body
+{
+  background-color: #323743;
+}
+
+.navbar
+{
+  font-family: 'Nunito', sans-serif;
+  justify-content: space-around;
+  align-items: center;
+  background-color: transparent;
+}
+
+.links svg
+{
+  margin-left: 10px;
+  color: white;
+}
