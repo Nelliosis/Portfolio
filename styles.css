@@ -3,6 +3,11 @@ body
   background-color: #323743;
 }
 
+.navbar-brand
+{
+  font-family: 'Raleway', sans-serif;
+}
+
 .navbar
 {
   font-family: 'Nunito', sans-serif;
@@ -11,8 +16,16 @@ body
   background-color: transparent;
 }
 
+
+.links
+{
+  display: flex;
+  flex-direction: row;
+}
+
 .links svg
 {
   margin-left: 10px;
   color: white;
+  text-decoration: none;
 }
