@@ -1,3 +1,8 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
 body
 {
   background-color: #323743;
@@ -5,17 +10,34 @@ body
 
 .navbar-brand
 {
-  font-family: 'Raleway', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+}
+
+h1
+{
+    font-family: 'Nunito', sans-serif;
+    color: white;
 }
 
 .navbar
 {
   font-family: 'Nunito', sans-serif;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
   align-items: center;
   background-color: transparent;
 }
 
+section
+{
+height: 100vh;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+text-transform: uppercase;
+}
 
 .links
 {
