@@ -108,6 +108,12 @@ justify-content: center;
   margin-right: 11%;
 }
 
+#picture-credits
+{
+  text-align: right;
+  font-size: x-small;
+}
+
 .links
 {
   display: flex;
