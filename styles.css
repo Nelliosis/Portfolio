@@ -12,33 +12,100 @@ body
 .navbar-brand
 {
     font-family: 'Source Code Pro', monospace;
+    margin-left: 100px;
 }
 
-h1
+p
 {
-    font-family: 'Nunito', sans-serif;
-    color: white;
+  font-family: 'Nunito', sans-serif;
+}
+
+.navbar-nav
+{
+  margin-right: 100px;
+  text-transform: uppercase;
 }
 
 .navbar
 {
   font-family: 'Nunito', sans-serif;
   justify-content: space-between;
-  margin-left: 100px;
-  margin-right: 100px;
   align-items: center;
-  background-color: transparent;
+  background-color: #323743;
 }
 
+.carousel
+{
+  position: relative;
+}
 
-.page
+img
+{
+  vertical-align: middle;
+  height: 100vh; 
+  width: 100%; 
+  object-fit: cover;
+}
+
+.btn
+{
+  border-radius: 30px; 
+  font-family: 'Nunito', sans-serif;
+  padding: 12px 30px;
+}
+
+.btn-primary
+{
+  background-color: #4681f4;
+  border-color: #4681f4;
+}
+
+.UnderConstruction
 {
 height: 100vh;
 width: 100%;
 display: flex;
 align-items: center;
 justify-content: center;
-text-transform: uppercase;
+}
+
+#slide1-label
+{
+  font-family: 'Source Code Pro', monospace;
+  font-size: 1000%;
+  text-align: right;
+}
+
+#slide1-subtitle
+{
+  font-family: 'Source Code Pro', monospace;
+  font-size: 150%;
+  text-align: right;
+  padding-bottom: 10%;
+}
+
+#slide2-label
+{
+  font-family: 'Source Code Pro', monospace;
+  font-size: 600%;
+  text-align: left;
+}
+
+#slide2-subtitle
+{
+  margin-left: 57%;
+}
+
+#slide3-label
+{
+  font-family: 'Source Code Pro', monospace;
+  font-size: 600%;
+  text-align: right;
+}
+
+#slide3-subtitle
+{
+  margin-right: 11%;
 }
 
 .links

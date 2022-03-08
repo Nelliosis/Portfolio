@@ -30,32 +30,86 @@
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
 </head>
 
-<body data-bs-spy="scroll" data-bs-target="#navigation">
+<header>
   <!-- navbar -->
-  <nav id="navigation" class="navbar fixed-top navbar-expand-sm navbar-dark">
+  <nav id="navigation" class="navbar fixed-top navbar-expand-lg navbar-dark">
     <span class="navbar-brand mb-0 h1" href="#">Nelliosis</span>
 
     <!-- Navigation -->
     <ul class="navbar-nav">
-      <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-      <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
       <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+      <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+      <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
     </ul>
   </nav>
+</header>
 
-  <!-- Services Section -->
-  <div class="page" id="services">
-    <h1> Under Construction: Services </h1>
+<body data-bs-spy="scroll" data-bs-target="#navigation">
+
+  <!-- About Section -->
+  <div id="about">
+    <div id="features" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="5000">
+      <!-- Carousel Indicators -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#features" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#features" data-bs-slide-to="1" aria-current="true"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#features" data-bs-slide-to="2" aria-current="true"
+          aria-label="Slide 3"></button>
+      </div>
+      <!-- Carousel Proper -->
+      <div class="carousel-inner">
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="/src/carousel-1.jpg" alt="First slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 id="slide1-label">Junel<br>Capawing</h1>
+            <p id="slide1-subtitle">Cloud Computing | Microsoft-certified | Programmer</p>
+          </div>
+        </div>
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <img class="d-block w-100" src="/src/carousel-2.jpg" alt="Second slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 id="slide2-label">Certified in 4 different areas</h1>
+            <a id="slide2-subtitle" class="btn btn-primary" href="#portfolio" role="button">Learn more</a>
+            <p style="padding-bottom: 20%;"></p>
+          </div>
+        </div>
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+          <img class="d-block w-100" src="/src/carousel-3.jpg" alt="Third slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 id="slide3-label">Interested?</h1>
+            <a id="slide3-subtitle" class="btn btn-primary" href="#contact" role="button">Contact me</a>
+            <p style="padding-bottom: 20%;"></p>
+          </div>
+        </div>
+      </div>
+      <!-- carousel buttons -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#features" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#features" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+    </div>
   </div>
 
+
+
   <!-- Portfolio Section -->
-  <div class="page" id="portfolio">
+  <div class="UnderConstruction" id="portfolio">
     <h1> Under Construction: Portfolio </h1>
   </div>
 
-  <!-- About Section -->
-  <div class="page" id="about">
-    <h1> Under Construction: about </h1>
+  <!-- Contact Section -->
+  <div class="UnderConstruction" id="contact">
+    <h1> Under Construction: contact </h1>
   </div>
 
 
