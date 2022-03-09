@@ -5,38 +5,13 @@ html
 
 body
 {
-  background-color: #323743;
+  background-color: #222935;
   position: relative;
-}
-
-.navbar-brand
-{
-    font-family: 'Source Code Pro', monospace;
-    margin-left: 100px;
 }
 
 p
 {
   font-family: 'Nunito', sans-serif;
-}
-
-.navbar-nav
-{
-  margin-right: 100px;
-  text-transform: uppercase;
-}
-
-.navbar
-{
-  font-family: 'Nunito', sans-serif;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #323743;
-}
-
-.carousel
-{
-  position: relative;
 }
 
 img
@@ -45,6 +20,28 @@ img
   height: 100vh; 
   width: 100%; 
   object-fit: cover;
+}
+
+.navbar
+{
+  font-family: 'Nunito', sans-serif;
+  background-color: #1C222E;
+}
+
+.navbar-brand
+{
+  font-family: 'Source Code Pro', monospace;
+}
+
+
+.navbar-nav
+{
+  text-transform: uppercase;
+}
+
+.carousel
+{
+  position: relative;
 }
 
 .btn
@@ -67,7 +64,28 @@ width: 100%;
 display: flex;
 align-items: center;
 justify-content: center;
+color: white;
 }
+
+.links
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.links svg
+{
+  margin-left: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+#navbarContainer
+{
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
 
 #slide1-label
 {
@@ -114,15 +132,3 @@ justify-content: center;
   font-size: x-small;
 }
 
-.links
-{
-  display: flex;
-  flex-direction: row;
-}
-
-.links svg
-{
-  margin-left: 10px;
-  color: white;
-  text-decoration: none;
-}
