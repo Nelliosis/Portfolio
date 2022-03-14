@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/src/favicon_light/favicon.ico">
+  <title>Nelliosis</title>
+
+  <!-- JavScript -->
+  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-latest.js"></script>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+  <!-- Styles -->
+  <link href="styles.css" rel="stylesheet">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <!-- Nunito -->
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+  <!-- Source Code Pro-->
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;400&display=swap" rel="stylesheet">
+  <!-- Raleway -->
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<header>
+  <!-- navbar -->
+  <div class="container d-flex flex-row bd-highlight">
+    <!-- Navigation Title -->
+    <nav id="navigation" class="navbar fixed-top navbar-expand-sm navbar-dark">
+      <div class="me-auto p-2 bd-highlight ps-5">
+        <span class="navbar-brand mb-0 h1" href="#"><i class="bi-code-square me-2"></i>Nelliosis</span>
+      </div>
+
+      <div class="p-2 bd-highlight pe-5">
+        <!-- Navigation -->
+        <div class="collapse navbar-collapse" id="mobile-menu">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <!-- burger menu -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mobile-menu"
+          aria-controls="burger-menu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+    </nav>
+  </div>
+
+
+</header>
+
+<body data-bs-spy="scroll" data-bs-target="#navigation">
+
+  <!-- About Section -->
+  <div id="about">
+    <div id="features" class="carousel carousel-light slide" data-bs-ride="carousel" data-bs-interval="5000">
+      <!-- Carousel Indicators -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#features" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#features" data-bs-slide-to="1" aria-current="true"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#features" data-bs-slide-to="2" aria-current="true"
+          aria-label="Slide 3"></button>
+      </div>
+      <!-- Carousel Proper -->
+      <div class="carousel-inner">
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="" alt="First slide">
+          <div class="carousel-caption">
+            <h1 class="h1" id="slide1-label">Junel<br>Capawing</h1>
+            <p id="slide1-subtitle">Cloud Computing | Microsoft-certified | Programmer</p>
+          </div>
+        </div>
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <img class="d-block w-100" src="" alt="Second slide">
+          <div class="carousel-caption">
+            <h1 class="h1" id="slide2-label">Certified in 4 different areas</h1>
+            <a class="btn btn-primary" href="#portfolio" role="button">Learn more</a>
+            <p id="subtitle-pad"></p>
+          </div>
+        </div>
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+          <img class="d-block w-100" src="" alt="Third slide">
+          <div class="carousel-caption">
+            <h1 id="slide3-label">Interested?</h1>
+            <a class="btn btn-primary" href="#contact" role="button">Contact me</a>
+            <p id="subtitle-pad"></p>
+          </div>
+        </div>
+      </div>
+      <!-- carousel buttons -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#features" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#features" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Portfolio Section -->
+  <div class="container" id="portfolio">
+    <div class="row g-3">
+      <!-- 1st card -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card border-dark">
+          <div class="card-image">
+            <img src="src/AZ900.png" alt="Microsoft Azure Fundamentals" class="card-img-top img-fluid">
+          </div>
+          <div class="card-body">
+            <h5 class="h5 card-title">Microsoft Certified: Azure Fundamentals</h5>
+            <p class="card-text">Microsoft certified in Azure Fundamentals. Microsoft's cloud solution.</p>
+            <a href="src/Azure Fundamentals.png" class="btn btn-primary">See the Certificate</a>
+          </div>
+        </div>
+      </div>
+      <!-- 2nd card -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card border-dark">
+          <div class="card-image">
+            <img src="src/MS900.png" alt="Microsoft 365 Fundamentals" class="card-img-top img-fluid">
+          </div>
+          <div class="card-body">
+            <h5 class="h5 card-title">Microsoft Certified: 365 Fundamentals</h5>
+            <p class="card-text">Microsoft certified in 365. Microsoft's business productivity solution.</p>
+            <a href="src/365 Fundamentals.png" class="btn btn-primary">See the Certificate</a>
+          </div>
+        </div>
+      </div>
+      <!-- 3rd card -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card border-dark">
+          <div class="card-image">
+            <img src="src/MTA.png" alt="Microsoft Java MTA" class="card-img-top img-fluid">
+          </div>
+          <div class="card-body">
+            <h5 class="h5 card-title">Microsoft Technology Associate: Java Fundamentals</h5>
+            <p class="card-text">Microsoft certified in the fundamentals of Java.</p>
+            <a href="src/MTA-Certificate.png" class="btn btn-primary">See the Certificate</a>
+          </div>
+        </div>
+      </div>
+      <!-- 4th card -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card border-dark">
+          <div class="card-image">
+            <img src="src/ENG-VEP.png" alt="Microsoft Virtual Experience Program" class="card-img-top img-fluid">
+          </div>
+          <div class="card-body">
+            <h5 class="h5 card-title">Microsoft Certified: Virtual Experience Program</h5>
+            <p class="card-text">Attended and completed Microsoft's virtual experience program.</p>
+            <a href="src/VEP.png" class="btn btn-primary">See the Certificate</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <div id="contact">
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-white">
+      <!-- Section: Social media -->
+      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        <div class="me-5 d-none d-lg-block">
+          <span>Additional Information</span>
+        </div>
+      </section>
+
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- About Section -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="bi-code-square me-2"></i>Nelliosis
+              </h6>
+              <p>
+                I am a Computer Science undergraduate who codes in my free time. I have
+                a deep-vested interest in making my life easier through code. I always
+                strive to learn more and do more.
+              </p>
+            </div>
+
+            <!-- Social Media -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">
+                My social media
+              </h6>
+              <p>
+                <i class="bi-linkedin"></i>
+                <a href="https://www.linkedin.com/in/jcapawing/" class="text-reset">LinkedIn</a>
+              </p>
+              <p>
+                <i class="bi-github"></i>
+                <a href="https://github.com/Nelliosis" class="text-reset">GitHub</a>
+              </p>
+            </div>
+
+            <!-- Contact -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                Contact Me
+              </h6>
+              <p>
+                <i class="bi-envelope"></i>
+                jcapawing@gmail.com
+              </p>
+            </div>
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.5);">
+        <i class="bi-code-slash"></i> with <i class="bi-heart-fill"></i> by:
+        <a class="text-reset fw-bold" href="https://github.com/Nelliosis">Junel Capawing</a>
+        © 2022. All rights reserved.
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+  </div>
+</body>
+
+</html>
