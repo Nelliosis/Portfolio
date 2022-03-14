@@ -5,11 +5,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/src/favicon_light/favicon.ico">
   <title>Nelliosis</title>
 
   <!-- JavScript -->
   <script src="script.js"></script>
-
+  <script src="https://code.jquery.com/jquery-latest.js"></script>
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -35,22 +36,22 @@
   <!-- navbar -->
   <div class="container d-flex flex-row bd-highlight">
     <!-- Navigation Title -->
-    <nav id="navigation" class="navbar fixed-top navbar-expand-lg navbar-dark">
+    <nav id="navigation" class="navbar fixed-top navbar-expand-sm navbar-dark">
       <div class="me-auto p-2 bd-highlight ps-5">
         <span class="navbar-brand mb-0 h1" href="#"><i class="bi-code-square me-2"></i>Nelliosis</span>
       </div>
 
       <div class="p-2 bd-highlight pe-5">
         <!-- Navigation -->
-        <div class="collapse navbar-collapse" id="burger-menu">
-          <ul class="navbar-nav">
+        <div class="collapse navbar-collapse" id="mobile-menu">
+          <ul class="navbar-nav me-auto">
             <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
             <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
             <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
           </ul>
         </div>
         <!-- burger menu -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#burger-menu"
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mobile-menu"
           aria-controls="burger-menu" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
     </nav>
@@ -77,16 +78,16 @@
       <div class="carousel-inner">
         <!-- Slide 1 -->
         <div class="carousel-item active">
-          <img class="d-block w-100" src="/src/carousel-1.jpg-" alt="First slide">
-          <div class="carousel-caption d-sm-none d-md-block">
+          <img class="d-block w-100" src="" alt="First slide">
+          <div class="carousel-caption">
             <h1 class="h1" id="slide1-label">Junel<br>Capawing</h1>
             <p id="slide1-subtitle">Cloud Computing | Microsoft-certified | Programmer</p>
           </div>
         </div>
         <!-- Slide 2 -->
         <div class="carousel-item">
-          <img class="d-block w-100" src="/src/carousel-2.jpg-" alt="Second slide">
-          <div class="carousel-caption d-sm-none d-md-block">
+          <img class="d-block w-100" src="" alt="Second slide">
+          <div class="carousel-caption">
             <h1 class="h1" id="slide2-label">Certified in 4 different areas</h1>
             <a class="btn btn-primary" href="#portfolio" role="button">Learn more</a>
             <p id="subtitle-pad"></p>
@@ -94,8 +95,8 @@
         </div>
         <!-- Slide 3 -->
         <div class="carousel-item">
-          <img class="d-block w-100" src="/src/carousel-3.jpg-" alt="Third slide">
-          <div class="carousel-caption d-sm-none d-md-block">
+          <img class="d-block w-100" src="" alt="Third slide">
+          <div class="carousel-caption">
             <h1 id="slide3-label">Interested?</h1>
             <a class="btn btn-primary" href="#contact" role="button">Contact me</a>
             <p id="subtitle-pad"></p>
@@ -120,7 +121,9 @@
       <!-- 1st card -->
       <div class="col-12 col-md-6 col-lg-4">
         <div class="card border-dark">
-          <img src="src/AZ900.png" alt="Microsoft Azure Fundamentals" class="card-img-top img-fluid">
+          <div class="card-image">
+            <img src="src/AZ900.png" alt="Microsoft Azure Fundamentals" class="card-img-top img-fluid">
+          </div>
           <div class="card-body">
             <h5 class="h5 card-title">Microsoft Certified: Azure Fundamentals</h5>
             <p class="card-text">Microsoft certified in Azure Fundamentals. Microsoft's cloud solution.</p>
@@ -131,7 +134,9 @@
       <!-- 2nd card -->
       <div class="col-12 col-md-6 col-lg-4">
         <div class="card border-dark">
-          <img src="src/MS900.png" alt="Microsoft 365 Fundamentals" class="card-img-top img-fluid">
+          <div class="card-image">
+            <img src="src/MS900.png" alt="Microsoft 365 Fundamentals" class="card-img-top img-fluid">
+          </div>
           <div class="card-body">
             <h5 class="h5 card-title">Microsoft Certified: 365 Fundamentals</h5>
             <p class="card-text">Microsoft certified in 365. Microsoft's business productivity solution.</p>
@@ -142,7 +147,9 @@
       <!-- 3rd card -->
       <div class="col-12 col-md-6 col-lg-4">
         <div class="card border-dark">
-          <img src="src/MTA.png" alt="Microsoft Java MTA" class="card-img-top img-fluid">
+          <div class="card-image">
+            <img src="src/MTA.png" alt="Microsoft Java MTA" class="card-img-top img-fluid">
+          </div>
           <div class="card-body">
             <h5 class="h5 card-title">Microsoft Technology Associate: Java Fundamentals</h5>
             <p class="card-text">Microsoft certified in the fundamentals of Java.</p>
@@ -153,7 +160,9 @@
       <!-- 4th card -->
       <div class="col-12 col-md-6 col-lg-4">
         <div class="card border-dark">
-          <img src="src/ENG-VEP.png" alt="Microsoft Virtual Experience Program" class="card-img-top img-fluid">
+          <div class="card-image">
+            <img src="src/ENG-VEP.png" alt="Microsoft Virtual Experience Program" class="card-img-top img-fluid">
+          </div>
           <div class="card-body">
             <h5 class="h5 card-title">Microsoft Certified: Virtual Experience Program</h5>
             <p class="card-text">Attended and completed Microsoft's virtual experience program.</p>
@@ -226,16 +235,14 @@
 
       <!-- Copyright -->
       <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.5);">
-        © 2021 Copyright:
+        <i class="bi-code-slash"></i> with <i class="bi-heart-fill"></i> by:
         <a class="text-reset fw-bold" href="https://github.com/Nelliosis">Junel Capawing</a>
+        © 2022. All rights reserved.
       </div>
       <!-- Copyright -->
     </footer>
     <!-- Footer -->
   </div>
-
-
-
 </body>
 
 </html>
