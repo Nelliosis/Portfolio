@@ -9,7 +9,7 @@ body
   position: relative;
 }
 
-p
+p, h1, h2, h3, h4, h5
 {
   font-family: 'Nunito', sans-serif;
 }
@@ -121,4 +121,13 @@ color: white;
   text-align: center;
 }
 
+#portfolio
+{
+  padding-bottom: 3%;
+}
+
+#contact
+{
+  background-color: #1C222E;
+}
 
