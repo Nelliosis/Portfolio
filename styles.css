@@ -43,7 +43,7 @@ img
 {
   border-radius: 30px; 
   font-family: 'Nunito', sans-serif;
-  padding: 12px 30px;
+  padding: 2px 30px;
 }
 
 .btn-primary
@@ -104,39 +104,28 @@ color: white;
 }
 
 
-#slide1-label
+#slide-label
 {
   font-family: 'Source Code Pro', monospace;
-  font-size: 10vw;
-  text-align: right;
+  font-size: 5vw;
+  text-align: center;
+  justify-content: center;
+  vertical-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
-#slide1-subtitle
+#subtitle
 {
-  font-family: 'Source Code Pro', monospace;
+  padding-bottom: 240px;
   font-size: 2vw;
-  text-align: right;
-  padding-bottom: 25vh;
-}
-
-#slide2-label
-{
-  font-family: 'Source Code Pro', monospace;
-  font-size: 7vw;
   text-align: center;
+  justify-content: center;
+  vertical-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
-#subtitle-pad
-{
-  padding-bottom: 25vh;
-}
-
-#slide3-label
-{
-  font-family: 'Source Code Pro', monospace;
-  font-size: 10vw;
-  text-align: center;
-}
 
 #portfolio
 {
