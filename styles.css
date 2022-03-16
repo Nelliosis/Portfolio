@@ -1,12 +1,12 @@
 body
 {
-  background-color: #222935;
+  background-color: #303A52;
   position: relative;
 }
 
 p, h1, h2, h3, h4, h5
 {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 img
@@ -41,8 +41,9 @@ img
 
 .navbar
 {
-  font-family: 'Nunito', sans-serif;
-  background-color: #1C222E;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-shadow: 2px 2px 4px #000000;
+  background-color: #303A52;
 }
 
 .navbar-brand
@@ -56,27 +57,39 @@ img
   text-transform: uppercase;
 }
 
-
 .btn
 {
   border-radius: 30px; 
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-shadow: 2px 2px 4px #424242;
   padding: 2px 30px;
   margin: 0 auto;
 }
 
 .btn-primary
 {
-  background-color: #4681f4;
-  border-color: #4681f4;
+  background-color: #957DAD;
+  border-color: #957DAD;
+}
+
+.btn-primary:hover
+{
+  background-color: #D291BC;
+  border-color: #D291BC;
 }
 
 .card
 {
-  border-radius: 30px;
+  border-radius: 50px;
   text-align: center;
+  text-shadow: 2px 2px 4px #424242;
   transition: 0.2s ease;
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.4), 0 10px 34px 0 rgba(0, 0, 0, 0.33);
+  background: rgb(66,76,101);
+  background: linear-gradient(132deg, rgba(66,76,101,1) 0%, rgba(65,75,99,1) 21%, rgba(61,71,95,1) 45%, rgba(53,63,87,1) 66%, rgba(48,58,82,1) 100%);
+  color: white;
 }
+
 
 .card:hover
 {
@@ -126,6 +139,7 @@ color: white;
 #slide-label
 {
   font-family: 'Source Code Pro', monospace;
+  text-shadow: 3px 3px 5px #000000;
   font-size: 5vw;
   text-align: center;
   justify-content: center;
@@ -154,5 +168,5 @@ color: white;
 
 #contact
 {
-  background-color: #1C222E;
+  background-color: #1d2331;
 }
