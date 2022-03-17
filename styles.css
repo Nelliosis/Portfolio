@@ -56,6 +56,12 @@ img
   text-transform: uppercase;
 }
 
+.collapse, .navbar-collapse
+{
+  display: flex;
+  flex-direction: column;
+}
+
 .btn
 {
   border-radius: 30px; 
