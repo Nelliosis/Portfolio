@@ -36,32 +36,32 @@
 <header>
   <!-- navbar -->
   <div class="container d-flex flex-row bd-highlight">
+
     <!-- Navigation Title -->
     <nav id="navigation" class="navbar fixed-top navbar-expand-sm navbar-dark bg-transparent">
-      <div class="me-auto p-2 bd-highlight ps-5">
-        <span class="navbar-brand mb-0 h1" href="#"><i class="bi-code-square me-2"></i>Nelliosis</span>
-      </div>
+      <span class="navbar-brand mb-0 h1 me-auto ps-5"><i class="bi-code-square me-2"></i>Nelliosis</span>
 
-      <div class="p-2 bd-highlight pe-5">
-        <!-- Navigation -->
-        <div class="collapse navbar-collapse" id="mobile-menu">
-          <ul class="navbar-nav me-auto">
-            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-          </ul>
-        </div>
-        <!-- burger menu -->
+      <!-- burger menu -->
+      <div class="pe-5">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mobile-menu"
           aria-controls="burger-menu" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <i class="bi-list"></i>
+      </div>
+
+      <!-- Navigation -->
+      <div class="collapse navbar-collapse" id="mobile-menu">
+        <ul class="navbar-nav ms-auto pe-5">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
     </nav>
   </div>
-
-
 </header>
 
-<body data-bs-spy="scroll" data-bs-target="#navigation">
+<body data-bs-spy="scroll" data-bs-target="#mobile-menu">
 
   <!-- About Section -->
   <div id="about">
