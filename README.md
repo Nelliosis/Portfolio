@@ -1,5 +1,5 @@
 # Portfolio :desktop_computer:
-Junel Capawing's Portfolio website. 
+A bootstrapped portfolio website.
 
 ## Languages :scroll:
 - HTML, CSS, JS
@@ -9,5 +9,5 @@ Junel Capawing's Portfolio website.
 - [Animate on Scroll](https://michalsnik.github.io/aos/)
 
 ### Copyright :briefcase:
-[Visit the license here](https://github.com/Nelliosis/Portfolio/blob/main/LICENSE)
+Junel Capawing © All rights reserved. [Visit the license here](https://github.com/Nelliosis/Portfolio/blob/main/LICENSE)
 
