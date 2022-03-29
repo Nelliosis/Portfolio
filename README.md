@@ -11,6 +11,8 @@ A bootstrapped portfolio website.
 ## Acknowledgements
 I am incredibly thankful for the following resources:
 * [ruisaraiva's Favycons](https://github.com/ruisaraiva19/favycon)
+* logo heavily inspired by [AlfredoCreates](https://thenounproject.com/AlfredoCreates/)
+* [Toptal's gitignore templates](https://www.toptal.com/developers/gitignore)
 
 
 ### Copyright :briefcase:
